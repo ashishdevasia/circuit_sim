@@ -1,6 +1,3 @@
-#Submitted by: M. Ashish
-#Roll No.: EP17B006
-
 import sys
 arg=sys.argv
 import numpy as np
@@ -109,7 +106,7 @@ class IVS:
         self.phase = phase
 
 #Note:  Even though we are only working with Independent voltage sources, resistors, capacitors and inductors right now,
-#       I am defining classes for other types of elements also as it can be used later in the course.
+#       I am defining classes for other types of elements also as it can be used later.
 
 class ICS:
     def __init__(self, name, n1, n2, value):
